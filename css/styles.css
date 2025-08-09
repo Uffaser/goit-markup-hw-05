@@ -472,31 +472,35 @@ img {
     margin-bottom: 16px;
 }
 
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+}
+
 .subscribe-input {
     background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 4px;
-    width: 262px;
+    width: 264px;
     height: 40px;
-    padding: 8px 16px;
-    outline: none;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    margin-right: 24px;
-}
-
-.subscribe-input::placeholder {
+    padding-left: 16px;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
+    outline: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-input::placeholder {
     color: #fff;
 }
 
 .subscribe-btn {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
@@ -509,6 +513,10 @@ img {
     border: none;
     fill: #fff;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-send {
+    margin-left: 16px;
 }
 
 .subscribe-btn:hover,
